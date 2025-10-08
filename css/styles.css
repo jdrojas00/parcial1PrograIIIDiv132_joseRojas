@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    background: #f5f6f7;
+    color: #222
+}
+
+nav {
+    background: #5ee274;
+    color: white;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.busqueda {
+    display: flex;
+    align-items: center
+}
+
+#filtro {
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 0;
+}
+
+#alumnoNombre{
+    margin-left: 18px;
+}
+
+.carritoHeader {
+    margin-left: 12px
+}
+
+.container {
+    max-width: 1180px;
+    margin: 22px auto;
+    padding: 0 16px
+}
+
+h2.section-titulo {
+    text-align: center;
+}
+
+.controles {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 18px
+}
+
+.boton {
+    background: #0ca125;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 18px
+}
+
+.card-producto {
+    background: white;
+    border-radius: 6px;
+    padding: 14px;
+    text-align: center;
+}
+
+.card-producto img {
+    width: auto;
+    height: 100px
+}
+
+.precio {
+    margin: 6px 0;
+    font-weight: 600
+}
+
+.carrito-area {
+    background-color: white;
+    padding: 26px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.carrito-list {
+    flex: 1
+}
+
+.carrito-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee
+}
+
+.carrito-item p {
+    margin: 0
+}
+
+.boton-eliminar {
+    background: #e33;
+    color: white;
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer
+}
+
+.carrito-right {
+    min-width: 160px;
+    text-align: right
+}
+
+.vaciar-boton {
+    background: #d9534f;
+    color: white;
+    padding: 8px 12px;
+    border: 0;
+    cursor: pointer
+}
